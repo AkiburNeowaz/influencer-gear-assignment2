@@ -16,8 +16,8 @@ h1,h2{
 
 header{
   font-size: 24px;
-width: 100%;
-display: flex;
+  width: 100%;
+  display: flex;
 
 }
 /* nav starts */
@@ -72,7 +72,7 @@ main {
 }
 .journey-details {
   font-size: 30px;
- width: 50%;
+  width: 50%;
 }
 
 .journey-details a {
@@ -233,26 +233,8 @@ padding: 0px 30px;
   grid-gap: 30px;
   
   }
-  
-
-  .feature-section{
- display: flex;
- flex-direction: column-reverse;
- text-align: center;
- width: 80%;
- padding: 0;
-    }
-
-    .feature-image img{
-     height: 300px;
-     width: 300px;
-    }
-   .feature-details .anchor{
- 
-      display: inline-block;
-      margin-bottom: 30px;
-    }
 }
+  
 .see-button{
   display: flex;
   justify-content: end;
@@ -264,3 +246,34 @@ padding: 0px 30px;
   text-decoration: none;
   color: rgba(224, 44, 109, 0.87);
 }
+
+
+
+.feature-section{
+  display:flex;
+
+    }
+
+    .feature-details h1{
+      color: orange;
+      font-size: 40px;
+      
+    
+    }
+    .feature-details{
+      padding-left: 100px;
+      padding-right: 10px;
+    }
+
+    .paragrap{
+      font-size: 18px;
+    }
+
+    .feature-image img{
+          height: 350px;
+          width: 650px;
+          padding-top: 50px;
+    }
+
+
+   .
