@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Luxurious+Roman&family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap');
+
 body{
-  margin: 0px;
-  padding: 0px;
+   font-family: 'Lora', serif;
+   font-family: 'Luxurious Roman', cursive;
+   font-family: 'Poppins', sans-serif;
+   margin: 0px;
+   padding: 0px;
   
 }
 h1,h2{
-
+  
     font-family: 'Poppins', sans-serif;
   
 }
 
 header{
+  font-size: 24px;
 width: 100%;
 display: flex;
 
@@ -21,7 +27,7 @@ nav {
   justify-content: space-between;
   width: 80%;
   margin: auto;
-   padding: 20px 0px; 
+  padding: 20px 0px; 
   
 }
 .nav-menu ul {
@@ -49,9 +55,12 @@ main {
   justify-content: center;
 }
 
-/* journey section starts */
+/**********************
+ journey section starts
+ ***********************/
+
 .journey-section {
-flex-direction: row;
+ flex-direction: row;
  display: flex;
  padding: 0px 100px;
 }
@@ -62,11 +71,8 @@ flex-direction: row;
 
 }
 .journey-details {
+  font-size: 30px;
  width: 50%;
-
-
-
-
 }
 
 .journey-details a {
@@ -79,8 +85,7 @@ flex-direction: row;
   margin-top:16px ;
 }
 .journey-image {
-    width: 50%;
-  
+    width: 40%;
     display: flex;
     justify-content: center;
    
@@ -88,11 +93,15 @@ flex-direction: row;
 .journey-image img {
     width: 80%;
     height:80%;
- border-radius: 50%;
-  border: 1px solid #aaaaaa;
+    border-radius: 50%;
+    border: 3px solid #F1E4FF;
 } 
 
-/* journey sectio ends */
+/*------------------
+ journey sectio ends
+ ------------------- */
+
+
 /* compani sectio starts  */
 
 .compani-logo-section {
